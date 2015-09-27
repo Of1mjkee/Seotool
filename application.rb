@@ -1,8 +1,3 @@
-
-
-
-
-
 class Application < Sinatra::Application
 
   # WARDEN SECTION ################################
@@ -94,6 +89,8 @@ class Application < Sinatra::Application
     _storage.set_config(storage_config[settings.implementation])
 
     @report_data = _storage.find_report(params[:domain], params[:date])
+
+    puts @report_data.inspect
 
     slim :report
   end

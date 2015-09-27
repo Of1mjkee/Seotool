@@ -1,9 +1,3 @@
-
-require 'rubygems'
-require 'data_mapper'
-require 'dm-postgres-adapter'
-require 'bcrypt'
-
 DataMapper.setup(:default, 'postgres://ofim:bond007@localhost/seodb')
 
 class User

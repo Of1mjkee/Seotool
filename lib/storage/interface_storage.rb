@@ -9,14 +9,6 @@ class InterfaceStorage
 
   end
 
-  # Report
-  # url
-  # domain
-  # ip
-  # headers
-  # links
-
-
   def save_report(report)
 
   end

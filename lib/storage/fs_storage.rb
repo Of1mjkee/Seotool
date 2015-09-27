@@ -30,8 +30,6 @@ class FSStorage < InterfaceStorage
   # VIEW create link GET /report?domain=vk.com&date=23-09-2015 00:43:44
   #
   #Report file name consist of domain + splitter '_' + Date format %d-%m-%Y %H:%M:%S
-  #
-  #REFACTOR: dir scan(reports folder) + extension put to configure file!
   def all_reports
 
     _result = []
