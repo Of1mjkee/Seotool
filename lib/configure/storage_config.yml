@@ -1,0 +1,13 @@
+FSStorage:
+  root: /home/ofim/RubymineProjects/seo
+  report_folder: 'public/reports'
+  file_extension: .report
+  file_splitter: _
+
+
+DBStorage:
+  host: localhost
+  port: 5432
+  user: ofim
+  password: bond007
+  dbname: seodb

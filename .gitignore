@@ -1,0 +1,13 @@
+
+.bundle
+.bundle/
+test/
+
+vendor/bundle/
+vendor/
+.idea/
+
+.gitignore~
+
+
+

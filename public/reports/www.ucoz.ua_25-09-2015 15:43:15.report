@@ -1,0 +1,234 @@
+--- !ruby/object:Report
+headers: !ruby/object:HTTParty::Response::Headers
+  header:
+    !binary "c2VydmVy":
+    - !binary |-
+      bmdpbngvMS44LjA=
+    !binary "ZGF0ZQ==":
+    - !binary |-
+      RnJpLCAyNSBTZXAgMjAxNSAxMjo0MzoxNCBHTVQ=
+    !binary "Y29udGVudC10eXBl":
+    - !binary |-
+      dGV4dC9odG1sOyBjaGFyc2V0PVVURi04
+    !binary "dHJhbnNmZXItZW5jb2Rpbmc=":
+    - !binary |-
+      Y2h1bmtlZA==
+    !binary "Y29ubmVjdGlvbg==":
+    - !binary |-
+      Y2xvc2U=
+    !binary "c2V0LWNvb2tpZQ==":
+    - !binary |-
+      dVNJRD00RWlRTkk2WXNGNjl5WE9GeGclM0JKOFdWQSUzQk1KWnhJUlpqRFBH
+      aGZNRE8ybXlneG0lNUVtMCUzQjU7IHBhdGg9LzsgZG9tYWluPXd3dy51Y296
+      LnVhOw==
+url: http://www.ucoz.ua/
+domain: www.ucoz.ua
+ip: 255.255.255.255
+title: uCoz — унікальна система для створення сайтів — безкоштовний хостинг та конструктор
+  сайтів нового покоління.Створи свій сайт
+links:
+- :name: FAQ
+  :href: 
+  :rel: <empty>
+  :target: _blank
+- :name: Блог
+  :href: 
+  :rel: <empty>
+  :target: _blank
+- :name: Форум
+  :href: 
+  :rel: <empty>
+  :target: _blank
+- :name: Вхід
+  :href: http://www.ucoz.ua//login
+  :rel: <empty>
+  :target: <empty>
+- :name: Реєстрація
+  :href: http://www.ucoz.ua//register
+  :rel: <empty>
+  :target: <empty>
+- :name: Створити сайт безкоштовно
+  :href: http://www.ucoz.ua//register
+  :rel: <empty>
+  :target: <empty>
+- :name: pedsovet.su
+  :href: http://www.ucoz.ua/javascript://
+  :rel: nofollow
+  :target: <empty>
+- :name: games.ucoz.ru
+  :href: http://www.ucoz.ua/javascript://
+  :rel: nofollow
+  :target: <empty>
+- :name: buhgalter-novosibirsk.ru
+  :href: http://www.ucoz.ua/javascript://
+  :rel: nofollow
+  :target: <empty>
+- :name: atlantis-tv.ru
+  :href: http://www.ucoz.ua/javascript://
+  :rel: nofollow
+  :target: <empty>
+- :name: stalker-gsc.ru
+  :href: http://www.ucoz.ua/javascript://
+  :rel: nofollow
+  :target: <empty>
+- :name: must-style.ru
+  :href: http://www.ucoz.ua/javascript://
+  :rel: nofollow
+  :target: <empty>
+- :name: volgo-mame.ru
+  :href: http://www.ucoz.ua/javascript://
+  :rel: nofollow
+  :target: <empty>
+- :name: Еще примеры
+  :href: http://www.ucoz.ua/javascript://
+  :rel: nofollow
+  :target: <empty>
+- :name: ''
+  :href: http://www.ucoz.ua/#
+  :rel: <empty>
+  :target: <empty>
+- :name: ''
+  :href: http://www.ucoz.ua/#
+  :rel: <empty>
+  :target: <empty>
+- :name: Редкая марка
+  :href: http://www.ucoz.ua/javascript://
+  :rel: nofollow
+  :target: <empty>
+- :name: Блоги. Новая сфера влияния
+  :href: http://www.ucoz.ua/javascript://
+  :rel: nofollow
+  :target: <empty>
+- :name: LiveInternet.ru
+  :href: http://www.ucoz.ua/javascript://
+  :rel: nofollow
+  :target: <empty>
+- :name: Alawar Entertainment, Inc.
+  :href: http://www.ucoz.ua/javascript://
+  :rel: nofollow
+  :target: <empty>
+- :name: Одноклассники.ru
+  :href: http://www.ucoz.ua/javascript://
+  :rel: nofollow
+  :target: <empty>
+- :name: МойКруг.ру
+  :href: http://www.ucoz.ua/javascript://
+  :rel: nofollow
+  :target: <empty>
+- :name: Free-Lance.ru
+  :href: http://www.ucoz.ua/javascript://
+  :rel: nofollow
+  :target: <empty>
+- :name: Roem.ru
+  :href: http://www.ucoz.ua/javascript://
+  :rel: nofollow
+  :target: <empty>
+- :name: СКБ Контур
+  :href: http://www.ucoz.ua/javascript://
+  :rel: nofollow
+  :target: <empty>
+- :name: www.kip.ru
+  :href: http://www.ucoz.ua/javascript://
+  :rel: nofollow
+  :target: <empty>
+- :name: Imena.UA
+  :href: http://www.ucoz.ua/javascript://
+  :rel: nofollow
+  :target: <empty>
+- :name: РОЦИТ
+  :href: http://www.ucoz.ua/javascript://
+  :rel: nofollow
+  :target: <empty>
+- :name: РАЭК
+  :href: http://www.ucoz.ua/javascript://
+  :rel: nofollow
+  :target: <empty>
+- :name: ''
+  :href: http://www.ucoz.ua/javascript://
+  :rel: <empty>
+  :target: <empty>
+- :name: ''
+  :href: http://www.ucoz.ua/javascript://
+  :rel: <empty>
+  :target: <empty>
+- :name: ''
+  :href: http://www.ucoz.ua/javascript://
+  :rel: <empty>
+  :target: <empty>
+- :name: ''
+  :href: http://www.ucoz.ua/javascript://
+  :rel: <empty>
+  :target: <empty>
+- :name: Про систему uCoz
+  :href: http://www.ucoz.ua//about/
+  :rel: <empty>
+  :target: <empty>
+- :name: ТОП сайтів
+  :href: 
+  :rel: <empty>
+  :target: <empty>
+- :name: Робота в Черкасах
+  :href: 
+  :rel: <empty>
+  :target: <empty>
+- :name: Блог
+  :href: http://www.ucoz.ua/javascript://
+  :rel: nofollow
+  :target: <empty>
+- :name: Форум
+  :href: http://www.ucoz.ua/javascript://
+  :rel: nofollow
+  :target: <empty>
+- :name: Facebook
+  :href: http://www.ucoz.ua/javascript://
+  :rel: nofollow
+  :target: <empty>
+- :name: Twitter
+  :href: http://www.ucoz.ua/javascript://
+  :rel: nofollow
+  :target: <empty>
+- :name: Google+
+  :href: 
+  :rel: publisher
+  :target: _blank
+- :name: Зворотній зв'язок
+  :href: http://www.ucoz.ua/javascript://
+  :rel: <empty>
+  :target: <empty>
+- :name: Форма для скарг
+  :href: http://www.ucoz.ua/javascript://
+  :rel: <empty>
+  :target: <empty>
+- :name: FAQ
+  :href: http://www.ucoz.ua/javascript://
+  :rel: nofollow
+  :target: <empty>
+- :name: Підручник uCoz
+  :href: 
+  :rel: <empty>
+  :target: <empty>
+- :name: Шаблони для uCoz
+  :href: 
+  :rel: <empty>
+  :target: <empty>
+- :name: Партнерська мережа
+  :href: http://www.ucoz.ua/javascript://
+  :rel: nofollow
+  :target: <empty>
+- :name: Умови використання
+  :href: http://www.ucoz.ua//terms/
+  :rel: <empty>
+  :target: <empty>
+- :name: Конфіденційність
+  :href: http://www.ucoz.ua//privacy/
+  :rel: <empty>
+  :target: <empty>
+- :name: uCoz
+  :href: 
+  :rel: <empty>
+  :target: <empty>
+- :name: Створити сайт безкоштовно
+  :href: http://www.ucoz.ua//register
+  :rel: <empty>
+  :target: <empty>
+date: 25-09-2015 15:43:15

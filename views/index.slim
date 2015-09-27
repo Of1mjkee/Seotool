@@ -1,0 +1,34 @@
+h1 class="text-center" SEO TOOLS
+div class="row"
+  div class="col-md-3"
+
+  div class="col-md-6"
+    form action="/report" method="post" class="form-horizontal"
+      div class="input-group"
+          input { type="text" name="url" class="form-control" required
+            pattern="^(https?:\/\/)?([\da-z\.-]+)\.([a-z\.]{2,6})([\/\w \.-]*)*\/?$" }
+          span class="input-group-btn"
+            input type="submit" class="btn btn-primary"
+
+br
+
+div class="jumbotron"
+  div class="row"
+    - unless @reports.nil?
+      div class=""
+          div class="row"
+            table class="table table-bordered"
+              caption Reports
+              thead
+                tr
+                  th Site url
+                  th Created at
+                  th Actions
+              tbody
+                - @reports.each do |report|
+                  tr
+                    td.url class="col-md-5" = report[:domain]
+                    td.time class="col-md-5" = report[:date]
+                    td.actions class="col-md-2"
+                      a href="report?domain=#{report[:domain]}&date=#{report[:date]}"
+                        span class="glyphicon glyphicon-list-alt"

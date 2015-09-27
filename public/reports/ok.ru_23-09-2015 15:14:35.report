@@ -1,0 +1,528 @@
+--- !ruby/object:Report
+headers: !ruby/object:HTTParty::Response::Headers
+  header:
+    server:
+    - Apache-Coyote/1.1
+    content-security-policy:
+    - ! 'default-src data: ''self'' ''unsafe-inline'' ''unsafe-eval'' ok.ru *.ok.ru
+      odnoklassniki.ru *.odnoklassniki.ru mycdn.me http://*.mycdn.me https://*.mycdn.me
+      *.mail.ru *.imgsmail.ru *.mradx.net *.gemius.pl *.weborama.fr *.adriver.ru *.serving-sys.com
+      *.googleapis.com *.gstatic.com www.google.com https://api-maps.yandex.ru; script-src
+      ''unsafe-inline'' ''unsafe-eval'' *.mail.ru *.imgsmail.ru *.mradx.net ok.ru
+      *.ok.ru odnoklassniki.ru *.odnoklassniki.ru mycdn.me http://*.mycdn.me https://*.mycdn.me
+      mc.yandex.ru an.yandex.ru *.google-analytics.com api-maps.yandex.ru https://api-maps.yandex.ru
+      https://clck.yandex.ru *.googleapis.com *.gstatic.com www.google.com www.youtube.com
+      https://www.youtube.com *.ytimg.com https://*.ytimg.com; connect-src *; font-src
+      *; frame-src *; img-src * data: blob:; media-src *; object-src *; report-uri
+      /csp/report;'
+    cache-control:
+    - no-cache
+    - no-store
+    pragma:
+    - no-cache
+    expires:
+    - Mon, 26 Jul 1997 05:00:00 GMT
+    rendered-blocks:
+    - HtmlPage
+    x-sct:
+    - 'true'
+    x-frame-options:
+    - SAMEORIGIN
+    content-type:
+    - text/html;charset=UTF-8
+    transfer-encoding:
+    - chunked
+    vary:
+    - Accept-Encoding
+    date:
+    - Wed, 23 Sep 2015 12:14:34 GMT
+    connection:
+    - close
+url: http://ok.ru
+domain: ok.ru
+ip: 255.255.255.255
+title: Одноклассники
+links:
+- :name: Перейти на версию для людей с ограниченными возможностями.
+  :href: http://ok.ru/dk?cmd=logExternal&st.cmd=logExternal&st.link=http%3A%2F%2Fm.odnoklassniki.ru&st.name=accessibleVersion
+  :rel: <empty>
+  :target: <empty>
+- :name: Mail.Ru
+  :href: 
+  :rel: nofollow
+  :target: _top
+- :name: Почта
+  :href: 
+  :rel: nofollow
+  :target: _top
+- :name: Мой Мир
+  :href: 
+  :rel: nofollow
+  :target: _top
+- :name: Одноклассники
+  :href: http://ok.ru/dk?st.cmd=anonymMain
+  :rel: nofollow
+  :target: _top
+- :name: Игры
+  :href: 
+  :rel: nofollow
+  :target: _top
+- :name: Знакомства
+  :href: 
+  :rel: nofollow
+  :target: _top
+- :name: Новости
+  :href: 
+  :rel: nofollow
+  :target: _top
+- :name: Поиск
+  :href: 
+  :rel: nofollow
+  :target: _top
+- :name: Все проекты
+  :href: http://ok.rujavascript:void(0)
+  :rel: nofollow
+  :target: <empty>
+- :name: Авто
+  :href: 
+  :rel: nofollow
+  :target: _blank
+- :name: Афиша
+  :href: 
+  :rel: nofollow
+  :target: _blank
+- :name: Гороскопы
+  :href: 
+  :rel: nofollow
+  :target: _blank
+- :name: Деньги
+  :href: 
+  :rel: nofollow
+  :target: _blank
+- :name: Дети
+  :href: 
+  :rel: nofollow
+  :target: _blank
+- :name: Добро
+  :href: 
+  :rel: nofollow
+  :target: _blank
+- :name: Здоровье
+  :href: 
+  :rel: nofollow
+  :target: _blank
+- :name: Календарь
+  :href: 
+  :rel: nofollow
+  :target: _blank
+- :name: Леди
+  :href: 
+  :rel: nofollow
+  :target: _blank
+- :name: Недвижимость
+  :href: 
+  :rel: nofollow
+  :target: _blank
+- :name: Облако
+  :href: 
+  :rel: nofollow
+  :target: _blank
+- :name: Ответы
+  :href: 
+  :rel: nofollow
+  :target: _blank
+- :name: Погода
+  :href: 
+  :rel: nofollow
+  :target: _blank
+- :name: Работа
+  :href: 
+  :rel: nofollow
+  :target: _blank
+- :name: Спорт
+  :href: 
+  :rel: nofollow
+  :target: _blank
+- :name: ТВ программа
+  :href: 
+  :rel: nofollow
+  :target: _blank
+- :name: Товары
+  :href: 
+  :rel: nofollow
+  :target: _blank
+- :name: Cars
+  :href: 
+  :rel: nofollow
+  :target: _blank
+- :name: Hi­­-Tech
+  :href: 
+  :rel: nofollow
+  :target: _blank
+- :name: Агент Mail.Ru
+  :href: 
+  :rel: nofollow
+  :target: _blank
+- :name: Браузер
+  :href: 
+  :rel: nofollow
+  :target: _blank
+- :name: ICQ
+  :href: 
+  :rel: nofollow
+  :target: _blank
+- :name: Почта для бизнеса
+  :href: 
+  :rel: nofollow
+  :target: _blank
+- :name: Почта для образования
+  :href: 
+  :rel: nofollow
+  :target: _blank
+- :name: Рейтинг
+  :href: 
+  :rel: nofollow
+  :target: _blank
+- :name: Таргет
+  :href: 
+  :rel: nofollow
+  :target: _blank
+- :name: ''
+  :href: http://ok.ru/
+  :rel: <empty>
+  :target: <empty>
+- :name: Регистрация
+  :href: http://ok.ru/join?st.cmd=anonymRegistrationEdit
+  :rel: <empty>
+  :target: <empty>
+- :name: Забыли пароль?
+  :href: http://ok.ru/cdk/st.cmd/anonymPasswordRecovery?st._aid=LeftColumn_Login_ForgotPassword
+  :rel: <empty>
+  :target: <empty>
+- :name: ''
+  :href: http://ok.ru/foto.blog
+  :rel: <empty>
+  :target: <empty>
+- :name: Больше, чем фото
+  :href: http://ok.ru/foto.blog
+  :rel: <empty>
+  :target: <empty>
+- :name: ''
+  :href: http://ok.ru/foto.blog/topic/64304753404823
+  :rel: <empty>
+  :target: <empty>
+- :name: ''
+  :href: http://ok.ru/foto.blog/topic/64304753404823
+  :rel: <empty>
+  :target: <empty>
+- :name: •••
+  :href: http://ok.ru/foto.blog/topic/64304753404823
+  :rel: <empty>
+  :target: <empty>
+- :name: ''
+  :href: http://ok.ru/foto.blog/topic/64304753404823
+  :rel: <empty>
+  :target: <empty>
+- :name: ''
+  :href: http://ok.ru/foto.blog
+  :rel: <empty>
+  :target: <empty>
+- :name: Больше, чем фото
+  :href: http://ok.ru/foto.blog
+  :rel: <empty>
+  :target: <empty>
+- :name: ''
+  :href: http://ok.ru/foto.blog/topic/64304702876567
+  :rel: <empty>
+  :target: <empty>
+- :name: •••
+  :href: http://ok.ru/foto.blog/topic/64304702876567
+  :rel: <empty>
+  :target: <empty>
+- :name: ''
+  :href: http://ok.ru/foto.blog/topic/64304702876567
+  :rel: <empty>
+  :target: <empty>
+- :name: ''
+  :href: http://ok.ru/family.blog
+  :rel: <empty>
+  :target: <empty>
+- :name: Любящие мамы
+  :href: http://ok.ru/family.blog
+  :rel: <empty>
+  :target: <empty>
+- :name: ''
+  :href: http://ok.ru/family.blog/topic/64299184682395
+  :rel: <empty>
+  :target: <empty>
+- :name: •••
+  :href: http://ok.ru/family.blog/topic/64299184682395
+  :rel: <empty>
+  :target: <empty>
+- :name: ''
+  :href: http://ok.ru/family.blog/topic/64299184682395
+  :rel: <empty>
+  :target: <empty>
+- :name: ''
+  :href: http://ok.ru/foto.blog
+  :rel: <empty>
+  :target: <empty>
+- :name: Больше, чем фото
+  :href: http://ok.ru/foto.blog
+  :rel: <empty>
+  :target: <empty>
+- :name: ''
+  :href: http://ok.ru/foto.blog/topic/64305060506519
+  :rel: <empty>
+  :target: <empty>
+- :name: ''
+  :href: http://ok.ru/foto.blog/topic/64305060506519
+  :rel: <empty>
+  :target: <empty>
+- :name: •••
+  :href: http://ok.ru/foto.blog/topic/64305060506519
+  :rel: <empty>
+  :target: <empty>
+- :name: ''
+  :href: http://ok.ru/foto.blog/topic/64305060506519
+  :rel: <empty>
+  :target: <empty>
+- :name: ''
+  :href: http://ok.ru/romantico
+  :rel: <empty>
+  :target: <empty>
+- :name: ♥ ЛЮБОВЬ И РОМАНТИКА ♥
+  :href: http://ok.ru/romantico
+  :rel: <empty>
+  :target: <empty>
+- :name: ''
+  :href: http://ok.ru/romantico/topic/68806379773952
+  :rel: <empty>
+  :target: <empty>
+- :name: ''
+  :href: http://ok.ru/romantico/topic/68806379773952
+  :rel: <empty>
+  :target: <empty>
+- :name: •••
+  :href: http://ok.ru/romantico/topic/68806379773952
+  :rel: <empty>
+  :target: <empty>
+- :name: ''
+  :href: http://ok.ru/romantico/topic/68806379773952
+  :rel: <empty>
+  :target: <empty>
+- :name: ''
+  :href: http://ok.ru/statusji
+  :rel: <empty>
+  :target: <empty>
+- :name: Лучшие статусы, цитаты и афоризмы
+  :href: http://ok.ru/statusji
+  :rel: <empty>
+  :target: <empty>
+- :name: ''
+  :href: http://ok.ru/statusji/topic/64345912421151
+  :rel: <empty>
+  :target: <empty>
+- :name: •••
+  :href: http://ok.ru/statusji/topic/64345912421151
+  :rel: <empty>
+  :target: <empty>
+- :name: ''
+  :href: http://ok.ru/statusji/topic/64345912421151
+  :rel: <empty>
+  :target: <empty>
+- :name: ''
+  :href: http://ok.ru/bivshiy
+  :rel: <empty>
+  :target: <empty>
+- :name: Бывший...♥
+  :href: http://ok.ru/bivshiy
+  :rel: <empty>
+  :target: <empty>
+- :name: ''
+  :href: http://ok.ru/bivshiy/topic/64382991646894
+  :rel: <empty>
+  :target: <empty>
+- :name: •••
+  :href: http://ok.ru/bivshiy/topic/64382991646894
+  :rel: <empty>
+  :target: <empty>
+- :name: ''
+  :href: http://ok.ru/bivshiy/topic/64382991646894
+  :rel: <empty>
+  :target: <empty>
+- :name: ''
+  :href: http://ok.ru/cheetko
+  :rel: <empty>
+  :target: <empty>
+- :name: ►Чέ†kσ
+  :href: http://ok.ru/cheetko
+  :rel: <empty>
+  :target: <empty>
+- :name: ''
+  :href: http://ok.ru/cheetko/topic/64372367908951
+  :rel: <empty>
+  :target: <empty>
+- :name: •••
+  :href: http://ok.ru/cheetko/topic/64372367908951
+  :rel: <empty>
+  :target: <empty>
+- :name: ''
+  :href: http://ok.ru/cheetko/topic/64372367908951
+  :rel: <empty>
+  :target: <empty>
+- :name: ''
+  :href: http://ok.ru/foto.blog
+  :rel: <empty>
+  :target: <empty>
+- :name: Больше, чем фото
+  :href: http://ok.ru/foto.blog
+  :rel: <empty>
+  :target: <empty>
+- :name: ''
+  :href: http://ok.ru/foto.blog/topic/64305408764823
+  :rel: <empty>
+  :target: <empty>
+- :name: •••
+  :href: http://ok.ru/foto.blog/topic/64305408764823
+  :rel: <empty>
+  :target: <empty>
+- :name: ''
+  :href: http://ok.ru/foto.blog/topic/64305408764823
+  :rel: <empty>
+  :target: <empty>
+- :name: ''
+  :href: http://ok.ru/mudrosty
+  :rel: <empty>
+  :target: <empty>
+- :name: Мудрые мысли
+  :href: http://ok.ru/mudrosty
+  :rel: <empty>
+  :target: <empty>
+- :name: ''
+  :href: http://ok.ru/mudrosty/topic/64337266341263
+  :rel: <empty>
+  :target: <empty>
+- :name: •••
+  :href: http://ok.ru/mudrosty/topic/64337266341263
+  :rel: <empty>
+  :target: <empty>
+- :name: ''
+  :href: http://ok.ru/mudrosty/topic/64337266341263
+  :rel: <empty>
+  :target: <empty>
+- :name: Показать ещё
+  :href: http://ok.ru#
+  :rel: <empty>
+  :target: <empty>
+- :name: Самая страшная драка в мире 18+01:17
+  :href: http://ok.ru/video/9295693161
+  :rel: <empty>
+  :target: <empty>
+- :name: Русский ответ лезгинке. Русские парни зажгли02:27
+  :href: http://ok.ru/video/29418719758
+  :rel: <empty>
+  :target: <empty>
+- :name: 5 летний пацан зажигает на свадьбе03:45
+  :href: http://ok.ru/video/33615448764
+  :rel: <empty>
+  :target: <empty>
+- :name: ДО СЛЕЗ! Уделите 2 минуты этому ролику НЕ ПОЖАЛЕЕТЕ02:19
+  :href: http://ok.ru/video/9342485833
+  :rel: <empty>
+  :target: <empty>
+- :name: Можно смотреть бесконечно! Милота зашкаливает )))))00:13
+  :href: http://ok.ru/video/32452184776
+  :rel: <empty>
+  :target: <empty>
+- :name: Как носить и подбирать шарфы, платки, палантины и шали __ Часть 2 [Шпильки_Женский
+    журнал]04:08
+  :href: http://ok.ru/video/32800049819
+  :rel: <empty>
+  :target: <empty>
+- :name: ! 'Фейсал Саид Аль Мутар: Противоречия ислама04:55'
+  :href: http://ok.ru/video/33397934706
+  :rel: <empty>
+  :target: <empty>
+- :name: ! 'Ричард Фейнман: Характер физического закона. Лекция #1. Пример физического
+    закона — закон тяготения54:08'
+  :href: http://ok.ru/video/33392626290
+  :rel: <empty>
+  :target: <empty>
+- :name: ! 'Обновки одежды:   Pandora, Nike,  Massimo Dutti, H&M, Carnaby16:50'
+  :href: http://ok.ru/video/29969943052
+  :rel: <empty>
+  :target: <empty>
+- :name: Смотреть всем! Порыбачил называется, спасибо!00:15
+  :href: http://ok.ru/video/33573046972
+  :rel: <empty>
+  :target: <empty>
+- :name: Українська
+  :href: http://ok.ru/dk?st.cmd=anonymMain&cmd=lang&lang=uk&st._aid=FatFooter_changeLang
+  :rel: <empty>
+  :target: _self
+- :name: O'zbek tili
+  :href: http://ok.ru/dk?st.cmd=anonymMain&cmd=lang&lang=uz&st._aid=FatFooter_changeLang
+  :rel: <empty>
+  :target: _self
+- :name: Azərbaycan dili
+  :href: http://ok.ru/dk?st.cmd=anonymMain&cmd=lang&lang=az&st._aid=FatFooter_changeLang
+  :rel: <empty>
+  :target: _self
+- :name: Հայերեն
+  :href: http://ok.ru/dk?st.cmd=anonymMain&cmd=lang&lang=hy&st._aid=FatFooter_changeLang
+  :rel: <empty>
+  :target: _self
+- :name: ქართული
+  :href: http://ok.ru/dk?st.cmd=anonymMain&cmd=lang&lang=ka&st._aid=FatFooter_changeLang
+  :rel: <empty>
+  :target: _self
+- :name: Română (MD)
+  :href: http://ok.ru/dk?st.cmd=anonymMain&cmd=lang&lang=mo&st._aid=FatFooter_changeLang
+  :rel: <empty>
+  :target: _self
+- :name: English
+  :href: http://ok.ru/dk?st.cmd=anonymMain&cmd=lang&lang=en&st._aid=FatFooter_changeLang
+  :rel: <empty>
+  :target: _self
+- :name: Қазақ тілі
+  :href: http://ok.ru/dk?st.cmd=anonymMain&cmd=lang&lang=kk&st._aid=FatFooter_changeLang
+  :rel: <empty>
+  :target: _self
+- :name: Мобильная версия
+  :href: 
+  :rel: <empty>
+  :target: _top
+- :name: Реклама
+  :href: 
+  :rel: <empty>
+  :target: _blank
+- :name: Разработчикам
+  :href: 
+  :rel: <empty>
+  :target: _blank
+- :name: Помощь
+  :href: http://ok.ru/help?st.cmd=helpFaq&st._aid=FatFooter_helpFaqAnonym
+  :rel: <empty>
+  :target: <empty>
+- :name: Регламент
+  :href: http://ok.ru/regulations?st.cmd=helpContent&st._aid=FatFooter_helpRegulations
+  :rel: <empty>
+  :target: <empty>
+- :name: Новости
+  :href: http://ok.ru/ok
+  :rel: <empty>
+  :target: <empty>
+- :name: Вакансии
+  :href: 
+  :rel: <empty>
+  :target: _blank
+- :name: О компании
+  :href: 
+  :rel: <empty>
+  :target: _blank
+- :name: ''
+  :href: 
+  :rel: <empty>
+  :target: <empty>
+date: 23-09-2015 15:14:35

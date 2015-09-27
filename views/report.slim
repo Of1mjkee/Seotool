@@ -1,0 +1,44 @@
+h1
+  ' Report for
+  a href="http://#{@report_data.domain}" =@report_data.domain
+h2 class="text-success"
+  ' Date:
+  strong = @report_data.date
+
+h2 class="text-success"
+  ' Ip:
+  strong = @report_data.ip
+
+div class="jumbotron"
+    div class="row"
+      table class="table table-bordered" style="padding: 5px"
+        caption Response headers
+        thead
+          tr
+            th Name
+            th Value
+        tbody
+          - @report_data.headers.each do |key, value|
+            tr
+              td.name class="col-md-4" = key
+              td.value class="col-md-8" = value
+
+
+div class="jumbotron"
+    div class="row"
+      table class="table table-bordered" style="padding: 5px"
+        caption Page links
+        thead
+          tr
+            th Name
+            th Url
+            th Rel
+            th Target
+        tbody
+          - for i in @report_data.links
+            tr
+              td.name = i[:name]
+              td.url
+                a href="#{i[:href]}" = i[:href]
+              td.rel = i[:rel]
+              td.target = i[:target]

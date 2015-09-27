@@ -1,0 +1,72 @@
+--- !ruby/object:Report
+headers: !ruby/object:HTTParty::Response::Headers
+  header:
+    !binary "c2VydmVy":
+    - !binary |-
+      QXBhY2hl
+    !binary "ZGF0ZQ==":
+    - !binary |-
+      RnJpLCAyNSBTZXAgMjAxNSAxMjo0MjoxNyBHTVQ=
+    !binary "Y29udGVudC10eXBl":
+    - !binary |-
+      dGV4dC9odG1sOyBjaGFyc2V0PXV0Zi04
+    !binary "Y29udGVudC1sZW5ndGg=":
+    - !binary |-
+      NTg0OQ==
+    !binary "Y29ubmVjdGlvbg==":
+    - !binary |-
+      Y2xvc2U=
+    !binary "eC1wb3dlcmVkLWJ5":
+    - !binary |-
+      UEhQLzMuMTczOTg=
+    !binary "cHJhZ21h":
+    - !binary |-
+      bm8tY2FjaGU=
+    !binary "Y2FjaGUtY29udHJvbA==":
+    - !binary |-
+      bm8tc3RvcmU=
+    !binary "c2V0LWNvb2tpZQ==":
+    - !binary |-
+      cmVtaXhsaGs9NjMwNWUwNDZiODlmMjY3M2Q5OyBleHBpcmVzPVdlZCwgMjEg
+      U2VwIDIwMTYgMTY6NTg6MjUgR01UOyBwYXRoPS87IGRvbWFpbj0udmsuY29t
+    !binary "eC1mcmFtZS1vcHRpb25z":
+    - !binary |-
+      U0FNRU9SSUdJTg==
+url: http://vk.com
+domain: vk.com
+ip: 255.255.255.255
+title: Мобільна версія ВКонтакті
+links:
+- :name: ! '
+
+     
+
+     '
+  :href: http://vk.com/
+  :rel: <empty>
+  :target: <empty>
+- :name: Забули пароль?
+  :href: http://vk.com/restore
+  :rel: <empty>
+  :target: <empty>
+- :name: Зареєструватися
+  :href: http://vk.com/join
+  :rel: <empty>
+  :target: <empty>
+- :name: English
+  :href: http://vk.com/settings?act=change_regional&hash=c5a058caad80e31fcb&lang_id=3
+  :rel: <empty>
+  :target: <empty>
+- :name: Русский
+  :href: http://vk.com/settings?act=change_regional&hash=c5a058caad80e31fcb&lang_id=0
+  :rel: <empty>
+  :target: <empty>
+- :name: all languages »
+  :href: http://vk.com/settings?act=select_lang
+  :rel: <empty>
+  :target: <empty>
+- :name: Повна версія
+  :href: 
+  :rel: <empty>
+  :target: <empty>
+date: 25-09-2015 15:42:17
