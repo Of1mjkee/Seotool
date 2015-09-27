@@ -18,6 +18,8 @@ require File.expand_path('../lib/storage/ormdm_storage',__FILE__)
 #MAPPING OBJECTS
 require File.expand_path('../lib/models/dm_mappings.rb',__FILE__)
 
+require File.expand_path('../lib/models/user.rb',__FILE__)
+
 #APP
 require File.expand_path('../application', __FILE__)
 

@@ -10,3 +10,7 @@ gem 'slim', '~> 3.0.6'
 gem 'pg', '~> 0.18.3'
 gem 'data_mapper'
 gem 'dm-postgres-adapter'
+gem 'bcrypt'
+gem 'warden'
+
+gem 'sinatra-flash'
