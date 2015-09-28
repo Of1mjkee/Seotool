@@ -11,3 +11,6 @@ DBStorage:
   user: ofim
   password: bond007
   dbname: seodb
+
+ORMDMStorage:
+  url: 'postgres://ofim:bond007@localhost/seodb'

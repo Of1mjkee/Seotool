@@ -6,11 +6,10 @@ class ORMDMStorage < InterfaceStorage
     @config = config
   end
 
-
   def client
 
-    DataMapper.setup(:default, 'postgres://ofim:bond007@localhost/seodb')
-    DataMapper.finalize       # set up all relationships properly
+    DataMapper.setup(:default, @config['url'])
+    DataMapper.finalize      # set up all relationships properly
     DataMapper.auto_upgrade! # create database table if it doesn't exist
 
     # # DOESNT WORK =======================================

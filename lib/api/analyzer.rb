@@ -1,10 +1,6 @@
 class Analyzer
 
-  # 1. Check url -> http https?
-  # 2. Check status response 200?
-
   def initialize(url)
-
     # if all is OK fetch and parse data from response
     if url =~ /\A#{URI::regexp(['http', 'https'])}\z/ && HTTParty.get(url).code == 200
       @url = url
@@ -12,8 +8,6 @@ class Analyzer
     else
       raise StandardError, 'URL is wrong ~= https? or code != 200'
     end
-
-
   end
 
   #Generate new report
@@ -34,9 +28,7 @@ class Analyzer
     # Get DOM Structure
     _dom = Nokogiri::HTML(@response)
 
-
     #Fill REPORT
-
     _report.url = @url
     _report.domain = URI(@url).host
     _report.ip = '255.255.255.255'
@@ -46,11 +38,9 @@ class Analyzer
     _report.date = Time.now.strftime('%d-%m-%Y %H:%M:%S') # DAY-MONTH-YEAR HOUR:MIN:SEC
 
     _report
-
   end
 
-
-  ### PRIVATE METHODS
+  private # guideline private method
 
   def get_title(dom)
     @title = dom.css('title').text
@@ -76,9 +66,5 @@ class Analyzer
     else
       @url.to_s + href.to_s
     end
-
-
   end
-
-
 end

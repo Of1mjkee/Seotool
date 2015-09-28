@@ -12,7 +12,6 @@ class Report
 
   has n,   :links, 'Link'
   has n,   :headers, 'Header'
-
 end
 
 class Link
@@ -27,7 +26,6 @@ class Link
   property   :target,     String
 
   belongs_to :report, 'Report'
-
 end
 
 class Header
@@ -40,5 +38,4 @@ class Header
   property   :value,      Text
 
   belongs_to :report, 'Report'
-
 end
