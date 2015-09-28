@@ -62,7 +62,7 @@ class Application < Sinatra::Application
   #2. DBStorage - database storage
   #3. ORMDMStorage - ORM database storage
 
-  set :implementation, 'ORMDMStorage'
+  set :implementation, 'DBStorage'
 
   storage_config = YAML.load(File.read(File.join(File.dirname(__FILE__), 'lib/configure/storage_config.yml')))
 
@@ -89,8 +89,6 @@ class Application < Sinatra::Application
     _storage.set_config(storage_config[settings.implementation])
 
     @report_data = _storage.find_report(params[:domain], params[:date])
-
-    puts @report_data.inspect
 
     slim :report
   end
